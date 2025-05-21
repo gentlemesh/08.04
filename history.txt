@@ -1,0 +1,18 @@
+ 2056  git checkout -b feature
+ 2057  git status
+ 2058  ls -la
+ 2059  nano README.md 
+ 2060  nano .gitignore 
+ 2061  git status
+ 2062  git add .
+ 2063  git commit -m "Изменения в файлы по заданию 12"
+ 2064  git push origin -u feature
+ 2065  git log
+ 2066  git commit --ammend
+ 2067  git commit --amend
+ 2068  git checkout main
+ 2069  git merge feature
+ 2070  git log
+ 2071  git status
+ 2072  history
+ 2073  history | tail -n 14 > history.txt
